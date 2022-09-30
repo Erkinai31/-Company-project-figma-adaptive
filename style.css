@@ -10,10 +10,10 @@ header{
 .container{
     max-width:1113px;
     margin:0 auto;
-    padding-top:30px ;
 }
 .logo{
-    padding-right:30px ;
+    padding-right:30px;
+    padding-top:20px ;
 }
 .wrapper{
     display:flex;
@@ -21,9 +21,8 @@ header{
 }
 .menu{ 
   display: flex;
-  justify-content:space-evenly;
+  padding-top:39px ;
   list-style: none; 
-  padding-top:39px;
   font-family: 'Lato',sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -109,7 +108,7 @@ li:not(:last-child){
 .menu__btn {
 	display: flex;
 	align-items: center;
-	position: fixed;
+	position: absolute;
 	top: 26px;
 	right: 80px;
 }
@@ -167,13 +166,12 @@ main{
     gap:30px;
     
 }
-.block1{
-    background-image:url(/Rectangle\ 33.png);
-    background-size:cover;
-}
 .block2{
     background-image:url(/Rectangle\ 2.png);
     background-size:cover;
+}
+.block2:hover{
+    background-image:url(/Rectangle\ 33.png);
 }
 .block__name{
     color:white;
@@ -252,11 +250,10 @@ footer{
     background-color:#EBEBEB;
     width:255px;
     height:255px;
+    padding:30px 40px;
 }
-.part4{
+.part:hover{
    background-color:#005FA3;
-   width:255px;
-   height:255px;
    color:#FFFFFF;
 }
 .our-result .nummer{
@@ -282,14 +279,6 @@ footer{
     border-radius: 25px; 
     padding:10px 21px;
     color:#005FA3
-}
-.part4 .more-info{
-    background:transparent;
-    border-color: #FFFFFF;
-    color:#FFFFFF;
-}
-.part,.part4{
-   padding:30px 40px; 
 }
 .add-info{
     background-image:url(/Rectangle.png);
@@ -447,7 +436,7 @@ label{
         gap:30px;
         padding-bottom:76px;
     }
-    .part, .part4{
+    .part{
         display:flex;
         justify-content: space-around;
         align-items:center;
