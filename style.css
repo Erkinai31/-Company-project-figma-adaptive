@@ -448,6 +448,7 @@ label{
     }
     .more-info::before{
         content:'Все кейсы';
+        color:#FFFFFF;
         visibility: visible;
         text-decoration: underline;
     }
