@@ -280,6 +280,25 @@ footer{
     padding:10px 21px;
     color:#005FA3
 }
+.part:hover,
+.part-active
+    {
+        background: #005FA3;
+        color: white;
+    }
+.part:hover button
+    {
+        border: 2px solid white;
+        color: white;
+        background-color:transparent;
+    }
+.more-info-active
+    {
+        color: white;
+        background: transparent;
+        border: 2px solid white;
+    }
+
 .add-info{
     background-image:url(/Rectangle.png);
     background-size:cover;
@@ -448,7 +467,6 @@ label{
     }
     .more-info::before{
         content:'Все кейсы';
-        color:red;
         visibility: visible;
         text-decoration: underline;
     }
